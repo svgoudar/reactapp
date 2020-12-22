@@ -1,0 +1,196 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #E6DADA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  
+}
+
+.form-wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.h3{
+  text-align: center;
+  width: 100%;
+  color: red;
+  font-stretch: normal;
+  font-size: 0.5rem;
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+  width: 100%;
+  margin-top: 0rem;
+  margin-bottom: 0.90rem;
+  color: black;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-stretch: semi-expanded;
+    line-height: 1.9em;
+    font-size: 2.1rem;
+}
+
+label {
+  font-size: 0.95em;
+  margin-bottom: 0.25em;
+  color: black;
+  font-weight: 94%;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 7px;
+  outline: none;
+  border: 2px solid #cfcfcf;
+ 
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.select{
+  cursor: pointer;
+  height: 2.8rem;
+  
+}
+.option{ 
+  margin-left: 2%;
+  font-size: large;
+  cursor: pointer;
+  text-align: left;
+  padding: 4px;
+  display: list-item;
+  
+  
+  }
+.firstName {
+  margin-right: 1%;
+}
+
+.lastName {
+  margin-right: 1%;
+}
+
+.firstName,
+.lastName,
+.email,
+.password,
+.confirmPassword{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+.confirmPassword{
+  width: 100%;
+}
+.firstName,
+.lastName,
+.project {
+  width: 49%;
+}
+
+.email,
+.password {
+  width: 100%;
+}
+
+
+.roles
+{ 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  width: 40%;
+  margin-left: 0.2rem;
+}
+.createAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createAccount button {
+  background-color: #244b75;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 0.5em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: fill;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+  align-items: center;
+}
+
+.createAccount button:hover {
+  color: whitesmoke;
+  background-color: black;
+  border: 2px solid black;
+}
+
+.createAccount small {
+  color: #999;
+  font-weight: lighter;
+}
+
+.myLink{
+  color: rgb(0, 0, 0);
+  margin-bottom: 0.25rem;
+}
+.myLink:visited{
+  color: red;
+}
+.myLink:hover{
+  color: blue;
+  cursor: pointer;  
+}
+.fa-fw{
+  padding-bottom: 0.5rem;
+  padding-top: 0.25rem;
+}
+.Link{
+  color: black;
+  margin-bottom: 0.25rem;
+}
+.Link:hover{
+  color: blue;
+  cursor: pointer;  
+}

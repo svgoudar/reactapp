@@ -1,0 +1,68 @@
+.wraps {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+background-color: white;
+
+}
+
+.new {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+background-color: white;
+overflow: hidden;
+}
+
+.tabular{
+ width: auto;
+ height: auto;
+    padding: 35px;
+    margin-top: 55px;
+    margin-left: 50px;
+    margin-right: 3px;
+    background-color: whitesmoke;
+    border-width: 0.8rem;
+  border-style: double;
+    font-size: large;
+ 
+}
+
+.tabularTGC{
+  width: auto;
+  height: auto;
+     padding: 25px;
+     margin-left: 20px;
+     margin-right: 3px;
+     background-color: whitesmoke;
+     border-width: 0.8rem;
+   border-style: double;
+     font-size: large;
+  
+ }
+
+h2 {
+    text-align: left;
+    width: 100%;
+    color: black;
+    font-stretch: normal;
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+  }
+.ba{
+
+  width: 750px;
+  height:45vh;
+  background-color: white;
+  
+}
+
+.tables{
+  margin-top: 2rem;
+  overflow: auto;
+}

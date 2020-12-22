@@ -1,0 +1,404 @@
+.wrappers {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+/* background-image: url('test.jpg'); */
+/* background-color: #684870; */
+background: #E6DADA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.forms {
+  width: 952px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px;
+  border-radius: 6px;
+  box-shadow: 0px 10px 50px #555;
+  align-items: left;
+  background-color: white;
+  margin-top: 0.7rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0.63rem;
+  margin-top: 0.63rem;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-stretch: extra-condensed;
+   font-size: 2.3rem;
+   font-weight: bold;
+   
+}
+
+label {
+  font-size: 1.1rem;
+  margin-bottom: 0.25em;
+  color: black;
+  font-weight: normal;
+  
+}
+.select{
+  cursor: pointer;
+  height: 2.8rem;
+  
+}
+
+input {
+  padding: 10px 10px;
+  outline: none;
+  border: 1.9px solid black;
+  border-radius: 0.7rem;
+  
+
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+
+.hScore,
+.dateH,
+.pragatiTitle,
+.pragatiID,
+.shristiTitle,
+.shristiID,
+.rFrom,
+.wcPoints
+ {
+   
+  margin-left: 0.5%;
+}
+
+.dateTill{
+  margin-left: 1.3%;
+}
+
+.des{
+  width: 67.9%;
+  margin-right: 0.18%;
+  margin-top: 0.64rem;
+  margin-left: 0.5%;
+}
+
+.empName,
+.empId,
+.hScore,
+.dateH,
+.dateT,
+.dateP,
+.dateTill,
+.dateFrom,
+.trendScore,
+.pragatiID,
+.des,
+.pragatiTitle,
+.chalID,
+.chalTitle,
+.shristiTitle,
+.shristiID,
+.wcPoints,
+.rFrom,
+.desc,
+.points,
+.cash,
+.topID,
+.dropdown,
+.dropdownT,
+.dropdowndiff,
+.topTitle
+{ 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.empName,
+.hScore,
+
+.cash{
+margin-top: 0.5rem;
+}
+
+.empName,
+.empId,
+.hScore,
+.dateH,
+.wcPoints
+{
+  width: 33%;
+}
+
+.dropdown{
+  width: 24.6%;
+  margin-left: 0.2rem;
+
+}
+.dropdownT{
+  width: 22%;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+
+}
+.dropdowndiff{
+  width: 32.4%;
+  
+}
+.chalTitle
+{
+  width: 23.1%;
+  margin-top: 0.55rem;
+  margin-left: 0.45rem;
+  margin-right: 0.15rem;
+}
+.topID,
+.topTitle,
+.points,
+.cash
+{
+  width: 24.4%;
+  margin-top: 0.5rem;
+  margin-left: 0.5%;
+}
+
+.pragatiTitle,
+.rFrom,
+.wcPoints,
+.pragatiID,
+.shristiTitle,
+.shristiID
+{
+  width: 37%;
+  margin-top: 0.5rem;
+}
+.trendScore,
+.chalID{
+  margin-top: 0.73rem;
+  width: 23%;
+  
+}
+.dateT,
+.dateFrom,
+.dateTill{
+  width: 25.5%;
+  margin-right: 0.3rem;
+  margin-top: 0.2rem;
+  margin-left: 0.3rem;
+
+
+
+}
+.dateP{
+  width: 30%;
+  margin-right: 0.3rem;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+}
+
+
+
+.myLink{
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-weight: fill;
+}
+.myLink:visited{
+  color: red;
+}
+.myLink:hover{
+  color: blue;
+  cursor: pointer;  
+}
+
+.fa-fw{
+  padding-bottom: 0.5rem;
+  padding-top: 0.25rem;
+}
+input[type="date"] {
+
+  color: black;
+  font-family: "Helvetica", arial, sans-serif;
+  height: 52%;
+  font-size: 14.6px;
+  background:white;
+ margin-top: auto;
+ margin-bottom: auto;
+  display: inline-block !important;
+  visibility: visible !important;
+  border-radius: 0.7rem;
+
+}
+
+input[type="date"]:in-range::-webkit-datetime-edit-year-field, 
+input[type="date"]:in-range::-webkit-datetime-edit-month-field, 
+input[type="date"]:in-range::-webkit-datetime-edit-day-field, 
+input[type="date"]:in-range::-webkit-datetime-edit-text 
+{ 	color:transparent; }
+
+.Link{
+  color: black;
+  margin-bottom: 0.25rem;
+}
+.Link:hover{
+  color: blue;
+  cursor: pointer;  
+}
+.tab
+{
+
+width: 1516px;
+margin-top: 1%;
+border: 4px solid black;
+margin-bottom: 1%;
+vertical-align: bottom;
+border-collapse: collapse;
+background-color: whitesmoke;
+}
+.row
+{
+  
+ border: 2px solid black;
+text-align: center;
+padding-bottom: 0.3%;
+padding-top: 0.3%;
+padding-left: 1.3%;
+padding-right: 1.3%;
+
+}
+.col
+{
+border: 2px solid black;
+text-align: center;
+height: auto;
+width: auto;
+padding-bottom: 0.4%;
+padding-top: 0.4%;
+/* padding-left: 1.3%;
+padding-right: 1.3%; */
+
+}
+.colm{
+  border: 2px solid black;
+text-align: center;
+height: auto;
+width: auto;
+padding-bottom: 0.4%;
+padding-top: 0.4%;
+/* padding-left: 1.3%;
+padding-right: 1.3%; */
+}
+.table{
+  margin-top: 0.4 rem;
+  overflow: auto;
+} 
+
+.create{
+  width: 15%;
+  display: flex;
+ flex-direction: column;
+ margin-left: 19.6rem;
+}
+.create button{
+  background-color: #244b75;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 0.5em;
+  padding: 8px 0px;
+  font-size: 1rem;
+  font-weight: fill;
+  letter-spacing: 1px;
+  margin-bottom: 0.6rem;
+  align-items: center;
+}
+.create button:hover{
+  color: whitesmoke;
+  background-color: black;
+  border: 2px solid black;
+}
+.ref{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.ref button{
+  background-color: #244b75;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 0.5em;
+  padding: 8px 0px;
+  font-size: 1rem;
+  font-weight: fill;
+  letter-spacing: 1px;
+  margin-bottom: 0.6rem;
+  align-items: center;
+}
+.ref button:hover{
+  color: whitesmoke;
+  background-color: black;
+  border: 2px solid black;
+}
+.homeB{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.homeB button{
+  background-color: #244b75;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 0.5em;
+  padding: 8px 0px;
+  font-size: 1rem;
+  font-weight: fill;
+  letter-spacing: 1px;
+  margin-bottom: 0.6rem;
+  align-items: center;
+}
+.homeB button:hover{
+  color: whitesmoke;
+  background-color: black;
+  border: 2px solid black;
+}
+
+.option{ 
+margin-left: 2%;
+font-size: large;
+cursor: pointer;
+text-align: left;
+padding: 4px;
+display: list-item;
+
+
+}
