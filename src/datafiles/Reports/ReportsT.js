@@ -18,7 +18,7 @@ class ReportT extends Component {
 
 componentWillMount() {
 
-  axios.get('http://poc100.herokuapp.com/report/find_name',{
+  axios.get('https://poc100.herokuapp.com/report/find_name',{
     headers:{
       'id': sessionStorage.getItem('use'),
       'role': sessionStorage.getItem('user'),

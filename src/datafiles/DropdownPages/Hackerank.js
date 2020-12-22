@@ -51,7 +51,7 @@ class Hackerank extends Component {
   }
   componentDidMount(){
    
-    axios.get('http://poc100.herokuapp.com/list/ddinfo',{
+    axios.get('https://poc100.herokuapp.com/list/ddinfo',{
       headers:{
         'id': sessionStorage.getItem('use'),
         'role': sessionStorage.getItem('user'),
@@ -69,7 +69,7 @@ class Hackerank extends Component {
       } 
   );
   
-    axios.get('http://poc100.herokuapp.com/list/ddinfo').then( 
+    axios.get('https://poc100.herokuapp.com/list/ddinfo').then( 
       (response) => {
           var q= response.data.certList; 
           this.setState({copt:q});
@@ -81,7 +81,7 @@ class Hackerank extends Component {
       } 
   );
   
-  axios.get('http://poc100.herokuapp.com/list/ddinfo').then( 
+  axios.get('https://poc100.herokuapp.com/list/ddinfo').then( 
     (response) => { 
         var p= response.data.skillList; 
         this.setState({sopt:p});

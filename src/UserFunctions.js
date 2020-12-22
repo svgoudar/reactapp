@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export const reg = newUser => {
   return axios
-    .post('http://poc100.herokuapp.com/auth/register', {
+    .post('https://poc100.herokuapp.com/auth/register', {
       firstName: newUser.firstName,
       lastName: newUser.lastName,
       email: newUser.email,
@@ -16,7 +16,7 @@ export const reg = newUser => {
 }
 export const sign = user => {
   return axios
-    .post('http://poc100.herokuapp.com/auth/signin', {
+    .post('https://poc100.herokuapp.com/auth/signin', {
       email: user.email,
       password: user.password,
       role: user.role,
@@ -35,7 +35,7 @@ export const sign = user => {
 
 export const check = newuser => {
   return axios
-    .post('http://poc100.herokuapp.com/auth/forgot_password', {
+    .post('https://poc100.herokuapp.com/auth/forgot_password', {
       email: newuser.email,
       firstName: newuser.firstName,
       lastName: newuser.lastName,

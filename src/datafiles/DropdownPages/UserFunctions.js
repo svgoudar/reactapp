@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export const hackdata = okUser => {
   return axios
-    .post('http://poc100.herokuapp.com/register/add_hackerrank', {
+    .post('https://poc100.herokuapp.com/register/add_hackerrank', {
         mod: okUser.mod,
         cert: okUser.cert,
         empName: okUser.empName,
@@ -25,7 +25,7 @@ export const hackdata = okUser => {
 
   export const trenddata = okUser => {
     return axios
-      .post('http://poc100.herokuapp.com/register/add_trendnext', {
+      .post('https://poc100.herokuapp.com/register/add_trendnext', {
           trendScore: okUser.trendScore,
           dateT: okUser.dateT,
           pop: okUser.pop,
@@ -45,7 +45,7 @@ export const hackdata = okUser => {
 
     export const detaildata = okUser => {
       return axios
-        .post('http://poc100.herokuapp.com/assign/add_details', {
+        .post('https://poc100.herokuapp.com/assign/add_details', {
             dateFrom: okUser.dateFrom,
             dateTill: okUser.dateTill,
             pop: okUser.pop,
@@ -65,7 +65,7 @@ export const hackdata = okUser => {
 
       export const shridata = okUser => {
         return axios
-          .post('http://poc100.herokuapp.com/register/add_shristi', {
+          .post('https://poc100.herokuapp.com/register/add_shristi', {
               shristiTitle: okUser.shristiTitle,
               shristiID: okUser.shristiID,
               dateP: okUser.dateP,
@@ -86,7 +86,7 @@ export const hackdata = okUser => {
 
         export const wcdata = okUser => {
           return axios
-            .post('http://poc100.herokuapp.com/register/add_winnercircle', {
+            .post('https://poc100.herokuapp.com/register/add_winnercircle', {
                 rFrom: okUser.rFrom,
                 wcPoints: okUser.wcPoints,
                 dateP: okUser.dateP,
@@ -107,7 +107,7 @@ export const hackdata = okUser => {
 
         export const pragdata = okUser => {
           return axios
-            .post('http://poc100.herokuapp.com/register/add_pragati', {
+            .post('https://poc100.herokuapp.com/register/add_pragati', {
               pragatiTitle: okUser.pragatiTitle,
               pragatiID: okUser.pragatiID,
               dateP: okUser.dateP,
@@ -128,7 +128,7 @@ export const hackdata = okUser => {
 
           export const topcdata = okUser => {
             return axios
-              .post('http://poc100.herokuapp.com/register/add_topgearl', {
+              .post('https://poc100.herokuapp.com/register/add_topgearl', {
                   cert: okUser.cert,
                   dateT: okUser.dateT,
                   pop: okUser.pop,
@@ -148,7 +148,7 @@ export const hackdata = okUser => {
 
             export const topgdata = okUser => {
               return axios
-                .post('http://poc100.herokuapp.com/register/add_topgearc', {
+                .post('https://poc100.herokuapp.com/register/add_topgearc', {
                     cert: okUser.cert,
                     topTitle: okUser.topTitle,
                     dateH: okUser.dateH,
